@@ -31,8 +31,14 @@
     border-radius: 5px;
     font-size: 20px;
     border: none;
-    background-color: skyblue;
+    background-color: rgb(85, 186, 226);
+    transition: 0.5s;
 }
+.banner-btn:hover{
+    background-color: rgba(27, 109, 141, 0.582);
+    color: white;
+}
+
 /* My failure previous year start */
 .my-failure{
     width: 80%;
@@ -40,8 +46,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 50px;
-    
+    padding: 50px 50px;  
 }
 .my-failure-image{
     width: 60%;
@@ -74,11 +79,11 @@
     font-weight: bold;
     margin-right: 10px;
 }
+
 /* My Plans */
 .my-plan{
     width: 80%;
     margin: auto;
-
 }
 .my-plan-item{
     display: flex;
@@ -91,15 +96,24 @@
 }
 .my-plan-details{
     text-align: center;
+    padding: 25px 10px;
+    border-radius: 8px;
+    box-shadow: 1px 3px 11px grey;
+    transition: 0.5s;
 }
+.my-plan-details:hover{
+    background-color: rgba(158, 151, 151, 0.479);
+}
+
 .my-plan-details img{
     width: 50px;
-    
 }
+
 .my-plan-details h1{
     font-size: 20px;
     padding: 15px 0;
 }
+
 /* display banner start */
 .display-banner{
     width: 80%;
@@ -115,6 +129,7 @@
 .display-banner h1 span{
     color: white;
 }
+
 .display-banner h1{
     font-size: 50px;
     padding-bottom:30px;
@@ -125,13 +140,19 @@
     font-size: 20px;
     border: none;
     background-color: white;
+    transition: 0.5s;
 }
-/* footer */
+.dis-banner-btn:hover{
+    background-color: #0a3150;
+    color: white;
+}
+
+/* footer start here */
 .footer{
     width: 100%;  
     background-color: black;
-    
 }
+
 .footer-details{
     width: 80%; 
     margin: auto;
@@ -140,16 +161,18 @@
     color: white;
     align-items: center;
     padding: 60px 0 60px 120px;
-    
 }
+
 .future{
     width: 45%;
 }
+
 .future h1{
     font-size: 35px;
 }
+
 .future p{
-    font-size: 18px;
+    font-size: 20px;
     padding: 15px 0;
     width: 80%;
 }
@@ -162,9 +185,7 @@
 }
 .subscribe{
     width: 45%;
-    /* margin-bottom: 15px; */
-    margin-left: 80px;
-    
+    margin-left: 80px; 
 }
 .subs-header{
     font-size: 25px;
@@ -175,7 +196,7 @@
     width: 60%;
     display: block;
     border-radius: 8px;
-    margin: 15px 0;
+    margin: 25px 0;
     padding-left: 15px;
 }
 .input-btn{
@@ -184,10 +205,15 @@
     background-color: #005fac;
     border-radius: 8px;
     color: white;
+    transition: 0.5s;
+}
+.input-btn:hover{
+   background-color: rgb(44, 151, 194);
 }
 .copyright{
     color: white;
     font-size: 20px;
     text-align: center;
+    padding-bottom: 20px;
     
 }

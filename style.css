@@ -182,8 +182,9 @@
 
 .future p{
     font-size: 20px;
-    padding: 15px 0;
+    padding: 10px 0;
     width: 80%;
+    line-height: 30px;
 }
 .future a{
     text-decoration: none;
@@ -231,4 +232,14 @@ hr{
     font-size: 20px;
     text-align: center;
     padding-bottom: 20px; 
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.copyright a:hover{
+    color: rgba(0, 0, 255, 0.726);
 }

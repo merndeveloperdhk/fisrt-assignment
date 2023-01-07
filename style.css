@@ -186,6 +186,12 @@
     width: 80%;
     line-height: 30px;
 }
+.contact-icon{
+    color: #006aff;
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
 .future a{
     text-decoration: none;
 }
@@ -202,6 +208,7 @@
     font-size: 25px;
     margin-bottom: 20px;
 }
+
 .input-email{
     height: 40px;
     width: 60%;
@@ -209,7 +216,7 @@
     border-radius: 8px;
     margin: 25px 0;
     padding-left: 15px;
-    
+    outline: none;
 }
 .input-btn{
     font-size: 20px;
@@ -233,6 +240,7 @@ hr{
     text-align: center;
     padding-bottom: 20px; 
 }
+
 
 .copyright a{
     text-decoration: none;

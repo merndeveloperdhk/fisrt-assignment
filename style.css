@@ -102,6 +102,7 @@
     text-align: center;
     padding: 25px 10px;
     border-radius: 8px;
+    height: 180px;
     box-shadow: 1px 3px 11px grey;
     transition: 0.5s;
 }

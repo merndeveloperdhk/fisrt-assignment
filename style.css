@@ -251,5 +251,5 @@ hr{
     transition: 0.5s;
 }
 .copyright a:hover{
-    color: rgba(0, 0, 255, 0.726);
+    color: #006aff;
 }
